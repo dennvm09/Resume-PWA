@@ -35,7 +35,7 @@ body {
 }
 
 .bg-fourth{
-    color: #DEE0E0;
+    background-color: #DEE0E0;
 }
 
 .my-avatar{
@@ -61,8 +61,10 @@ body {
 
 .line{
     background-color: #DEE0E0;
+    max-width: 150px;
     height: 5px;
-    width: 200px;
+    border-radius: 15%;
+    width: 100%;
 }
 
 .line-1{
@@ -86,8 +88,70 @@ body {
     width: 150px;
 }
 
+.img-size-modal{
+    height: 300px;
+    width: 300px;
+}
+
 .img-div-size{
     height: 200px;
     width: 300px;
 }
+
+.img-div-size-modal{
+    height: 350px;
+    width: 600px;
+}
+/*.btn-prt-modal{
+    background-color: transparent;
+    border-color: transparent;
+    transition: none;
+}*/
+
+.btn-prt-modal:hover, .btn-prt-modal:active, .btn:focus{
+    background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+    outline: none;
+    box-shadow: none; 
+        
+}
+
+.close{
+    position: absolute;
+    right: 3%;
+    top: 2%;
+    font-size: 80px;
+    line-height: 90%;
+    color: #65c9ff;
+    border-radius: 1%;
+    opacity: 1;
+}
+
+/*.btn-prt-modal:hover{
+    /*background-color: #080e2c;
+    opacity: 1;
+    background-image: url(images/add.png);
+}*/
+
+.about-cont{
+    width: 40%;
+    height: max-content;
+    font-size: large;
+    
+}
+
+.text-p{
+    font-weight: normal;
+    font-size: large;
+    color: #DEE0E0;
+    font-family: sans-serif;
+    text-align: left;
+
+}
+
+.pro-bar{
+    height: 2rem;
+}
+
 
