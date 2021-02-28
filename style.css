@@ -150,8 +150,41 @@ body {
 
 }
 
+.text-t{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Lato';
+}
+
+.text-q{
+    text-align: center;
+    font-weight: 100;
+    font-size: larger;
+}
+
 .pro-bar{
     height: 2rem;
+}
+
+.position-fixed {
+    position: fixed !important;
+}
+
+.scroll-to-top {
+    z-index: 1042;
+    right: 1rem;
+    bottom: 1rem;
+    display: none;
+}
+
+.cir {
+    border-radius: 80%;
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
 }
 
 
